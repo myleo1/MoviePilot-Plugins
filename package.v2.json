@@ -132,11 +132,12 @@
         "name": "FFmpeg缩略图",
         "description": "TheMovieDb没有背景图片时使用FFmpeg截取视频文件缩略图",
         "labels": "刮削",
-        "version": "2.1",
+        "version": "2.2",
         "icon": "ffmpeg.png",
         "author": "jxxghp",
         "level": 1,
         "history": {
+            "v2.2": "优化ffmpeg命令执行效率，修复生成缩略图判断逻辑",
             "v2.1": "优化执行周期输入，需要MoviePilot v2.2.1+",
             "v2.0": "兼容MoviePilot V2 版本"
         }
